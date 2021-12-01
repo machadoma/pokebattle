@@ -25,7 +25,7 @@ while (md5 <= 5) or (vic <= 3) or (lose <= 3):
        
         print(f"Rodada:{md5}")
         print(f"Placar Vitorias: {vic} x {lose} :Derrotas")
-        escolha = int(input("Escolha seu pokémon: "))
+        escolha = int(input("Escolha seu pokémon, opções válidas de 1 a 3: "))
         
 
     x = escolha.to_bytes((escolha.bit_length() + 7) // 8, byteorder='little')
