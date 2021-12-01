@@ -1,4 +1,4 @@
-# pokebattle
+# PokéBattle
 
 Professor:
 
